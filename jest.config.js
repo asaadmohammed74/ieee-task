@@ -1,5 +1,5 @@
 module.exports = {
-	verbose: false,
+	silent: true,
 	testMatch: ['<rootDir>/**/*.test.{ts,js}'],
 	collectCoverage: true,
 	moduleFileExtensions: ['ts', 'js', 'json', 'node'],
