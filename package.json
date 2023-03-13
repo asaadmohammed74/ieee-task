@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "swc src/*.ts -d dist/",
+    "build": "swc src/**/*.ts -d dist/",
     "test": "jest"
   },
   "keywords": [],
