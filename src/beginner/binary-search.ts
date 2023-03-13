@@ -8,7 +8,7 @@ function print_binary_search_progress<T>(list: T[], element: T, startIndex: numb
     }).join('')
 
     const arrows = list.map((_, index) => {
-        var ss = ''
+        let ss = ''
 
         if (index === startIndex) {
             ss += 'S'
