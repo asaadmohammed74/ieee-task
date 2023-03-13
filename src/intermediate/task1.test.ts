@@ -1,7 +1,7 @@
 import { findTwoLargest } from "./task1"
 
 
-describe('Task 1', () => {
+describe('Task 1: find largest two numbers', () => {
     test('should return null when less then 2 elements', () => {
         expect(findTwoLargest([1])).toBeNull()
         expect(findTwoLargest([])).toBeNull()
