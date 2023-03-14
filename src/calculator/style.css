@@ -1,0 +1,51 @@
+:root {
+    --bg-color: black;
+    --fg-color: white;
+    --btn-bg-color: white;
+    --btn-fg-color: black;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--bg-color);
+    color: var(--fg-color)
+}
+
+.center-grid {
+    display: grid;
+    padding: 1rem;
+    place-content: center;
+}
+
+.calc-btn {
+    padding: 1rem 2rem;
+    font-size: xx-large;
+    color: var(--btn-fg-color);
+    background: var(--btn-bg-color);
+    cursor: pointer;
+}
+
+.result-box {
+    padding: 1rem;
+    background-color: white;
+    color: red;
+    font-size: xx-large;
+    grid-column: 1 / span 4;
+}
+
+.title {
+    text-align: center;
+    grid-column: 1 / span 4;
+}
+
+.calc-body {
+    display: grid;
+    max-width: fit-content;
+    grid-template-columns: repeat(4, 1fr);
+}

@@ -1,15 +1,18 @@
 {
     "$schema": "https://json.schemastore.org/swcrc",
     "jsc": {
-        "target": "es2022",
+        "target": "es2020",
         "parser": {
             "syntax": "typescript",
             "dynamicImport": true
         }
     },
     "module": {
-        "type": "es6"
+        "type": "commonjs"
     },
     "sourceMaps": true,
-    "minify": false
+    "minify": false,
+    "env": {
+        "targets": "Chrome >= 48"
+    }
 }
